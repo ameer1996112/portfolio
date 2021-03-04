@@ -61,7 +61,7 @@
 
 
 #top .img .background-img {
-    background: url('../img/download.png');
+    background: url('../../img/download.png');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;

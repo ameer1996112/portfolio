@@ -1,14 +1,13 @@
-@import "cssreset.css";
+@import 'cssreset.css';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700');
-@import "landing-page/top-section.css";
-@import "landing-page/services-section.css";
-@import "landing-page/portfolio-section.css";
-@import "landing-page/experience-section.css";
-@import "landing-page/blog-sections.css";
-@import "landing-page/testomnial-section.css";
-@import "portfolio/portfolio-projects.css";
-@import "footer-section.css";
-
+@import 'landing-page/top-section.css';
+@import 'landing-page/skills-section.css';
+@import 'landing-page/portfolio-section.css';
+@import 'landing-page/experience-section.css';
+@import 'landing-page/blog-sections.css';
+@import 'landing-page/about-section.css';
+@import 'portfolio/portfolio-projects.css';
+@import 'footer-section.css';
 
 body {
   /* background: #eeeeee; */
@@ -19,13 +18,10 @@ body {
   margin: 0 auto;
 }
 
-
-
 header {
   display: flex;
   padding: 20px;
   justify-content: space-between;
-
 }
 
 header .logo {
@@ -33,8 +29,6 @@ header .logo {
   font-weight: 700;
   text-transform: uppercase;
   color: white;
-
-
 }
 
 header .logo .name {
@@ -52,7 +46,6 @@ header .header-menu {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 header .header-menu a {
@@ -62,12 +55,11 @@ header .header-menu a {
   color: black;
   padding: 0 10px;
   /* transition: all 0.3s ease-in-out; */
-
 }
 
 header .header-menu a:hover {
   font-weight: 700;
-  color: #ff5253
+  color: #ff5253;
 }
 
 header .menu-button {
@@ -107,25 +99,21 @@ header .menu-button {
   padding: 15px 0;
   text-decoration: none;
   color: black;
-
 }
 
 .mobile-menu a:hover {
   text-decoration: none;
   color: white;
   background: #ff5253;
-
 }
 
 @media only screen and (max-width: 960px) {
   .container {
-    width: 100%
+    width: 100%;
   }
-
 }
 
 @media only screen and (max-width: 767px) {
-
   header .header-menu {
     display: none;
   }
@@ -136,11 +124,8 @@ header .menu-button {
 
   header .logo {
     font-size: 1.3rem;
-
-
   }
-  .mobile-menu{
-    display:flex;
+  .mobile-menu {
+    display: flex;
   }
-  
 }

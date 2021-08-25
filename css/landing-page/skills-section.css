@@ -1,0 +1,128 @@
+.skills {
+  padding: 80px 15px;
+}
+
+.skills .title {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.skills .title .circle {
+  background: #eef9ff;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 23px;
+}
+
+.skills .title h1 {
+  position: relative;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #16171b;
+  z-index: 1;
+  letter-spacing: 20px;
+}
+
+.skills .skills-content .column {
+  width: calc(50% - 30px);
+}
+
+.skills .skills-content .left .text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.skills .skills-content .left p {
+  text-align: justify;
+  color: #929294;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+.skills .skills-content .left a {
+  font-size: 1.3rem;
+  color: #13171a;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  display: inline-block;
+  border-bottom: 2px solid #ff5253;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.skills .skills-content .left a:hover {
+  color: #ff5253;
+  background: none;
+  text-decoration: none;
+}
+.skills .skills-content .right .bars {
+  margin-bottom: 15px;
+}
+.skills .skills-content .right .info {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills .skills-content .right span {
+  font-weight: 500;
+  font-size: 18px;
+}
+.skills .skills-content .right .line {
+  height: 5px;
+  width: 100%;
+  background: lightgrey;
+  position: relative;
+}
+.skills .skills-content .right .line::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #919191;
+}
+.skills-content .right .html::before {
+  width: 90%;
+}
+.skills-content .right .css::before {
+  width: 60%;
+}
+.skills-content .right .js::before {
+  width: 80%;
+}
+.skills-content .right .java::before {
+  width: 85%;
+}
+.skills-content .right .react::before {
+  width: 60%;
+}
+
+.skills .skills-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+/*Tablets*/
+@media only screen and (max-width: 960px) {
+  .skills .skills-content .column {
+    width: calc(100% - 30px);
+  }
+}
+
+/*Phones*/
+@media only screen and (max-width: 767px) {
+  .skills .skills-content .column {
+    width: calc(100% - 30px);
+  }
+}

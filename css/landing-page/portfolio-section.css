@@ -148,7 +148,7 @@
   grid-row: 2/6;
 }
 #portfolio-section .portfolio-container .box.image6 .image {
-  background: url('/img/zerlee-banner.png');
+  background: url('../../img/zerlee-banner.png');
   height: 100%;
   width: 100%;
   background-size: cover;
